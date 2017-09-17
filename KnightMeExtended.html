@@ -1,0 +1,5 @@
+<div ng-show='!!user.rank'>
+  <h4>Rank:</h4> {{ user.rank }}
+</div>
+<button ng-show='!user.rank' class='btn btn-success' ng-click='knightMe(user)'>Knight me</button>
+<button ng-show='!user.rank' class='btn btn-info' ng-click='logUserName(user)'>Extended</button>
